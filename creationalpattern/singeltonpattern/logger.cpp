@@ -9,7 +9,7 @@ class Logger{
            Logger *log=new Logger();
            l=log; 
         }
-        return &l;
+        return l;
     }
     void info(string msg){
         auto x=chrono::system_clock::now();
